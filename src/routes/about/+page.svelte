@@ -1,10 +1,15 @@
+<script>
+	import rainbow from '$lib/images/hearts.png';
+</script>
+
+
 <svelte:head>
 	<title>About Jen</title>
 	<meta name="description" content="About Jen from Modest" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>About Jen</h1>
+	<h1>About Jen <img src={rainbow} alt="Rainbow" width="50px" /></h1>
 
 	<p>
 		Jen is a passionate designer with 15 years of experience spanning across multiple industries.

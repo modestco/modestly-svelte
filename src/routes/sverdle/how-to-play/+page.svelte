@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-	<title>How to play Sverdle</title>
-	<meta name="description" content="How to play Sverdle" />
+	<title>How to play Nerdle</title>
+	<meta name="description" content="How to play Nerdle" />
 </svelte:head>
 
 <div class="text-column">
