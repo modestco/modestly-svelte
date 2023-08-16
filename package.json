@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/poppins": "^5.0.8",
 		"@fontsource/style-script": "^5.0.9",
 		"@rodneylab/svelte-social-icons": "^0.0.28"
 	}

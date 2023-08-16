@@ -1,5 +1,6 @@
 @import '@fontsource/fira-mono';
 @import '@fontsource/style-script';
+@import '@fontsource/poppins';
 
 :root {
 	--font-body: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
