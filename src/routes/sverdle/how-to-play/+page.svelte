@@ -1,5 +1,5 @@
 <script>
-	import rainbow from '$lib/images/hearts.png'
+	import rainbow from '$lib/images/hearts.png';
 </script>
 
 <svelte:head>
@@ -9,7 +9,7 @@
 
 <div class="text-column">
 	<h1>How to play Nerdle <img src={rainbow} alt="Rainbow" width="50px" /></h1>
-	
+
 	<p>
 		Nerdle is a clone of <a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a>, the
 		word guessing game. To play, enter a five-letter English word. For example:
@@ -41,7 +41,7 @@
 	<p>This time we guessed right! You have <strong>six</strong> guesses to get the word.</p>
 
 	<p>
-		Unlike the original Wordle, Sverdle runs on the server instead of in the browser, making it
+		Unlike the original Wordle, Nerdle runs on the server instead of in the browser, making it
 		impossible to cheat. It uses <code>&lt;form&gt;</code> and cookies to submit data, meaning you can
 		even play with JavaScript disabled!
 	</p>

@@ -2,7 +2,6 @@
 	import welcome from '$lib/images/JenSunCloud.svg';
 	import SocialIcons from '@rodneylab/svelte-social-icons';
 	import './styles.css';
-
 </script>
 
 <svelte:head>
@@ -17,15 +16,25 @@
 				<img src={welcome} alt="Welcome" />
 			</picture>
 		</span>
-		Jen from Modest 
+		Jen from Modest
 	</h1>
 	<div class="socials">
 		<span>
-			<a href="https://www.facebook.com/modestcreativestudio/" target="_blank" rel="noopener noreferrer"><SocialIcons network="facebook" fgColor="#171539" bgColor="#c9974e"></SocialIcons></a>
-			<a href="https://www.instagram.com/creativelymodest" target="_blank" rel="noopener noreferrer"><SocialIcons network="instagram" fgColor="#171539" bgColor="#c9974e"></SocialIcons></a>
-			<a href="https://twitter.com/modestlytechy" target="_blank" rel="noopener noreferrer"><SocialIcons network="twitter" fgColor="#171539" bgColor="#c9974e"></SocialIcons></a>
-			<a href="https://github.com/modestco" target="_blank" rel="noopener noreferrer"><SocialIcons network="github" fgColor="#171539" bgColor="#c9974e"></SocialIcons></a>
-
+			<a
+				href="https://www.facebook.com/modestcreativestudio/"
+				target="_blank"
+				rel="noopener noreferrer"
+				><SocialIcons network="facebook" fgColor="#171539" bgColor="#c9974e" /></a
+			>
+			<a href="https://www.instagram.com/creativelymodest" target="_blank" rel="noopener noreferrer"
+				><SocialIcons network="instagram" fgColor="#171539" bgColor="#c9974e" /></a
+			>
+			<a href="https://twitter.com/modestlytechy" target="_blank" rel="noopener noreferrer"
+				><SocialIcons network="twitter" fgColor="#171539" bgColor="#c9974e" /></a
+			>
+			<a href="https://github.com/modestco" target="_blank" rel="noopener noreferrer"
+				><SocialIcons network="github" fgColor="#171539" bgColor="#c9974e" /></a
+			>
 		</span>
 	</div>
 
@@ -34,27 +43,25 @@
 			Modestly Techy
 		</a>
 	</button>
-	
+
 	<button class="linkbutton">
 		<a href="https://modestlycreativeco.etsy.com" target="_blank" rel="noopener noreferrer">
-			Modest on Etsy 
+			Modest on Etsy
 		</a>
 	</button>
-	
+
 	<button class="linkbutton">
 		<a href="https://ko-fi.com/modestlytechy/" target="_blank" rel="noopener noreferrer">
-			Buy Me a Beer 
+			Buy Me a Beer
 		</a>
 	</button>
 	<button class="linkbutton">
 		<a href="https://jenluchka.com" target="_blank" rel="noopener noreferrer">
-			Freelance Portfolio 
+			Freelance Portfolio
 		</a>
 	</button>
 	<button class="linkbutton">
-		<a href="mailto:info@modestco.ca" target="_blank" rel="noopener noreferrer">
-			Email Me 
-		</a>
+		<a href="mailto:info@modestco.ca" target="_blank" rel="noopener noreferrer"> Email Me </a>
 	</button>
 </section>
 
@@ -88,29 +95,29 @@
 		display: block;
 	}
 	.linkbutton {
-	background-color: var(--color-bg-0);
-	color: white;
-	border: none;
-	border-radius: 1rem;
-	padding: 0.5rem 1rem;
-	font-size: 1rem;
-	font-weight: 300;
-	cursor: pointer;
-	margin-bottom: 0.5rem;
-	transition: background-color 0.2s ease-in-out;
-}
+		background-color: var(--color-bg-0);
+		color: white;
+		border: none;
+		border-radius: 1rem;
+		padding: 0.5rem 1rem;
+		font-size: 1rem;
+		font-weight: 300;
+		cursor: pointer;
+		margin-bottom: 0.5rem;
+		transition: background-color 0.2s ease-in-out;
+	}
 
-.linkbutton:hover {
-	border: none;
-	border-radius: 1rem;
-	padding: 0.5rem 1rem;
-	font-size: 1rem;
-	font-weight: 300;
-	cursor: pointer;
-	transition: background-color 0.2s ease-in-out;
-}
-.name, .socials {
-	margin-bottom: 0.5rem;
-}
-
+	.linkbutton:hover {
+		border: none;
+		border-radius: 1rem;
+		padding: 0.5rem 1rem;
+		font-size: 1rem;
+		font-weight: 300;
+		cursor: pointer;
+		transition: background-color 0.2s ease-in-out;
+	}
+	.name,
+	.socials {
+		margin-bottom: 0.5rem;
+	}
 </style>
