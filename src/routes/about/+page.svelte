@@ -25,7 +25,7 @@
 	</p>
 
 	<p>
-		Of all Jen's past experiences and accomplishments, being a mother of two humans, a large fuzzy dog, and a wife to a very supportive husband has by far been the best. She sits on the Board of Directors at a local educational institution, and is an Associate Member of the Design Professionals of Canada <a href="https://www.descan.ca">DesCan</a>. 
+		Of all Jen's past experiences and accomplishments, being a mother of two humans, a large fuzzy dog, and a wife to a very supportive husband has by far been the best. She sits on the Board of Directors at a local educational institution, and is an Associate Member of the Design Professionals of Canada <a href="https://www.descan.ca" target="_blank" rel="noopener noreferrer">DesCan</a>. 
 		
 		She is a lover of all things design, and is always looking for new ways to express her
 		creativity. She is a self-proclaimed tech expert and loves to teach others who consider
@@ -38,7 +38,7 @@
 		button below:
 	</p>
 	<button class="aboutbutton">
-		<a href="https://docs.google.com/forms/d/16CI6-6b2AM3UsWR1Dz_DjNCdg30_OrkAvb3WA18phTI/edit"
+		<a href="https://docs.google.com/forms/d/16CI6-6b2AM3UsWR1Dz_DjNCdg30_OrkAvb3WA18phTI/edit" target="_blank" rel="noopener noreferrer"
 			>Collaborate</a
 		>
 	</button>
