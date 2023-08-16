@@ -1,13 +1,13 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
+	import logo from '$lib/images/20.svg';
 	import github from '$lib/images/github.svg';
 </script>
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+		<a href="https://jenluchka.com">
+			<img src={logo} alt="ModestDesignCo Logo" />
 		</a>
 	</div>
 
@@ -17,13 +17,13 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
+				<a href="/">Main</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/sverdle">Sverdle</a>
+				<a href="/sverdle">Play</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -32,8 +32,8 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
+		<a href="https://jenluchka.com">
+			<img src={logo} alt="ModestDesignCo Logo" />
 		</a>
 	</div>
 </header>
@@ -45,8 +45,8 @@
 	}
 
 	.corner {
-		width: 3em;
-		height: 3em;
+		width: 4em;
+		height: 4em;
 	}
 
 	.corner a {
@@ -66,7 +66,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		--background: #171539c9;
 	}
 
 	svg {
@@ -106,7 +106,7 @@
 		top: 0;
 		left: calc(50% - var(--size));
 		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
+		border-top: var(--size) solid #c9974e;
 	}
 
 	nav a {
@@ -114,8 +114,8 @@
 		height: 100%;
 		align-items: center;
 		padding: 0 0.5rem;
-		color: var(--color-text);
-		font-weight: 700;
+		color: white;
+		font-weight: 500;
 		font-size: 0.8rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;

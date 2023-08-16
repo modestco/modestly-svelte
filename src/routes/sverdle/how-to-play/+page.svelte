@@ -1,13 +1,17 @@
+<script>
+	import rainbow from '$lib/images/hearts.png'
+</script>
+
 <svelte:head>
 	<title>How to play Sverdle</title>
 	<meta name="description" content="How to play Sverdle" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>How to play Sverdle</h1>
-
+	<h1>How to play Nerdle <img src={rainbow} alt="Rainbow" width="50px" /></h1>
+	
 	<p>
-		Sverdle is a clone of <a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a>, the
+		Nerdle is a clone of <a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a>, the
 		word guessing game. To play, enter a five-letter English word. For example:
 	</p>
 
@@ -65,11 +69,11 @@
 
 	.close {
 		border-style: solid;
-		border-color: var(--color-theme-2);
+		border-color: var(--color-theme-1);
 	}
 
 	.exact {
-		background: var(--color-theme-2);
+		background: var(--color-theme-1);
 		color: white;
 	}
 
