@@ -1,6 +1,7 @@
 <script>
 	import { confetti } from '@neoconfetti/svelte';
 	import { enhance } from '$app/forms';
+	import rainbow from '$lib/images/hearts.png';
 
 	import { reduced_motion } from './reduced-motion';
 
@@ -92,7 +93,7 @@
 	<meta name="description" content="Not wordle, NERDle! by Jen from Modest Design Co." />
 </svelte:head>
 
-<h1 class="visually-hidden">Nerdle</h1>
+<h1>Nerdle <img src={rainbow} alt="Rainbow" width="50px" /></h1>
 
 <form
 	method="POST"
@@ -104,6 +105,7 @@
 		};
 	}}
 >
+
 	<a class="how-to-play" href="/sverdle/how-to-play">How to play</a>
 
 	<div class="grid" class:playing={!won} class:bad-guess={form?.badGuess}>
@@ -191,7 +193,7 @@
 			force: 0.7,
 			stageWidth: window.innerWidth,
 			stageHeight: window.innerHeight,
-			colors: ['#ff3e00', '#40b3ff', '#676778']
+			colors: ['#bd7877', '#c9974e', '#6a7b73', '#171539']
 		}}
 	/>
 {/if}
@@ -407,4 +409,5 @@
 			transform: translateX(0);
 		}
 	}
+
 </style>
