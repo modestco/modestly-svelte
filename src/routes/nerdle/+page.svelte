@@ -88,8 +88,8 @@
 <svelte:window on:keydown={keydown} />
 
 <svelte:head>
-	<title>Nerdle</title>
-	<meta name="description" content="Not wordle, NERDle!" />
+	<title>Nerdle by md.co ✨</title>
+	<meta name="description" content="Not wordle, NERDle! by Jen from Modest Design Co." />
 </svelte:head>
 
 <h1 class="visually-hidden">Nerdle</h1>
