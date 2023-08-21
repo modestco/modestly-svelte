@@ -20,8 +20,8 @@
 	</p>
 	<p>
 		Aside from working corporate positions, Jen has thoroughly enjoyed assisting small businesses
-		and independent contractors with brand itentities, logos, social media support, and a wide range
-		of digital and print collatoral over the years.
+		and independent contractors with brand identities, logos, social media support, and a wide range
+		of digital and print collateral over the years.
 	</p>
 
 	<p>
